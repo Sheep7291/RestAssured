@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e452ce58-7c9e-49c2-82d2-819d6d8a638c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/DefaultSetupExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/TestExampleWithAllure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testConfiguration/BaseTestConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/Addresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/ValidateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/ValidateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sheep7291"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sheep7291/RestAssured.git",
+    "accountId": "45ed3a30-6f92-4240-bb17-fba2d7f8a5a0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,19 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BasicResponseDemo.convenienceMethods.executor": "Run",
+    "TestNG.NestedBodyValidationDemo.nestedBodyValidation.executor": "Run",
+    "TestNG.TestExampleWithAllure.nestedBodyValidation.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.DefaultSetupExample.logExample">
-    <configuration name="BasicResponseBodyDemo.matcherExample" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestExampleWithAllure.nestedBodyValidation">
+    <configuration name="BasicResponseDemo.convenienceMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +72,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.BasicResponseBodyDemo" />
-      <option name="METHOD_NAME" value="matcherExample" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.BasicResponseDemo" />
+      <option name="METHOD_NAME" value="convenienceMethods" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultSetupExample.testUsingGlobalConstants" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedBodyValidationDemo.nestedBodyValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.DefaultSetupExample" />
-      <option name="METHOD_NAME" value="testUsingGlobalConstants" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.NestedBodyValidationDemo" />
+      <option name="METHOD_NAME" value="nestedBodyValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeekAndPrintDemo.print" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExampleWithAllure.nestedBodyValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.PeekAndPrintDemo" />
-      <option name="METHOD_NAME" value="print" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.TestExampleWithAllure" />
+      <option name="METHOD_NAME" value="nestedBodyValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestExampleWithAllure.nestedBodyValidation" />
+        <item itemvalue="TestNG.NestedBodyValidationDemo.nestedBodyValidation" />
+        <item itemvalue="TestNG.BasicResponseDemo.convenienceMethods" />
         <item itemvalue="TestNG.DefaultSetupExample.logExample" />
         <item itemvalue="TestNG.DefaultSetupExample.failedTestExample" />
-        <item itemvalue="TestNG.DefaultSetupExample.testUsingGlobalConstants" />
-        <item itemvalue="TestNG.BasicResponseBodyDemo.matcherExample" />
-        <item itemvalue="TestNG.PeekAndPrintDemo.print" />
       </list>
     </recent_temporary>
   </component>
