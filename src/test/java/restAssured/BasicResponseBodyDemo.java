@@ -39,7 +39,6 @@ public class BasicResponseBodyDemo {
         Assert.assertEquals(value2, 0);
     }
 
-    //poniższy kod pokaże jak można zrobić to bardziej czytelne weryfikowanie body
     @Test
     public void matcherExample(){
         RestAssured.get(Addresses.BASE_URL)

@@ -28,7 +28,6 @@ public class PathParamsDemo {
                 .body("id", Matchers.equalTo(772529504));
     }
 
-    //z path paramem jest poniżej
     @Test
     void withPathParam() {
         RestAssured
