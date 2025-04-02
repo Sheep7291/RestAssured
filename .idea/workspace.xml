@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e452ce58-7c9e-49c2-82d2-819d6d8a638c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/PeekAndPrintDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssured/DefaultSetupExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/Addresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/Addresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssured/ValidateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssured/ValidateResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,28 +26,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2uszvymQPTKrpmJYl4bByPsycNL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.PeekAndPrintDemo.print">
-    <configuration name="DemoTest.demoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.DefaultSetupExample.logExample">
+    <configuration name="BasicResponseBodyDemo.matcherExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +56,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.DemoTest" />
-      <option name="METHOD_NAME" value="demoTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.BasicResponseBodyDemo" />
+      <option name="METHOD_NAME" value="matcherExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeekAndPrintDemo.peek" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DefaultSetupExample.failedTestExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +74,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.PeekAndPrintDemo" />
-      <option name="METHOD_NAME" value="peek" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.DefaultSetupExample" />
+      <option name="METHOD_NAME" value="failedTestExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultSetupExample.logExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.DefaultSetupExample" />
+      <option name="METHOD_NAME" value="logExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultSetupExample.testUsingGlobalConstants" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.DefaultSetupExample" />
+      <option name="METHOD_NAME" value="testUsingGlobalConstants" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,9 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DefaultSetupExample.logExample" />
+        <item itemvalue="TestNG.DefaultSetupExample.failedTestExample" />
+        <item itemvalue="TestNG.DefaultSetupExample.testUsingGlobalConstants" />
+        <item itemvalue="TestNG.BasicResponseBodyDemo.matcherExample" />
         <item itemvalue="TestNG.PeekAndPrintDemo.print" />
-        <item itemvalue="TestNG.PeekAndPrintDemo.peek" />
-        <item itemvalue="TestNG.DemoTest.demoTest" />
       </list>
     </recent_temporary>
   </component>

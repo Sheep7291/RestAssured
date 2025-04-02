@@ -30,4 +30,14 @@ public class ValidateResponse {
                 .header("etaq", notNullValue())
                 .header("etaq", not(emptyString()));
         }
+
+    @Test
+    void validateHeadersWithMap(){
+        RestAssured.get(Addresses.BASE_URL)
+                .then()
+                .headers(
+                        "content-encoding", "gzip",
+                        "access-control-allow-origin", "*"
+                );
+    }
     }
